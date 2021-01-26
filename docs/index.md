@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Welcome to Math.js
 
-You can use the [editor on GitHub](https://github.com/Jahongir2007/Math.js/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
+With Math.js framework you can work with Mathematical examples with HTML codes.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The framework for this framework is very simple
 
-### Markdown
+### Math.js syntax
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+We created tags and attributes for Math.js. Example:
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<!DOCTYPE html>
+<html>
+  <head>
+    <!import:math.js>
+    <!import:others>
+  </head>
+  <body>
+    <sqrt get:val="25"></sqrt>
+    <!--value: 5-->
+    <sqr get:val="4"></sqr>
+    <!--value: 16-->
+  </body>
+</html>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+You can find more information on github
 
-### Jekyll Themes
+### Author: Jahongir Sobirov
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jahongir2007/Math.js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
+I am frontend developer. I know js, jquery, vue.js, bootstrap, html5, css3
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+My email: Jahongir.Sobirov.2007@mail.ru
