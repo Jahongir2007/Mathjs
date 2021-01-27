@@ -33,7 +33,7 @@ You can use this framework via html you don't need any js.
 </body> 
 </html>
 ```
-### Any tags in Math.js
+### Any tags use in Math.js
 With <code>sqr</code>, you can calc the square of the number. Write value in the <code>sqr</code> tag.
 ```markdown
 <!DOCTYPE html>
@@ -68,6 +68,7 @@ With <code>sqrt</code>, you can calc the root value of the number. Write value i
 </body> 
 </html>
 ```
+ ### Any tags in Math.js
 <table align="center">
   <tr>
     <th style="width:20%">Tag</th>
@@ -186,9 +187,11 @@ With <code>sqrt</code>, you can calc the root value of the number. Write value i
     <td>Returns the vocume</td>
   </tr>
   </table>
+  
 ### How to use attr get:val
 you can get a numeric value in any tag using the get:val attribute. Example:
-<code>
+
+```markdown
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -203,8 +206,8 @@ you can get a numeric value in any tag using the get:val attribute. Example:
   <!--value: 22-->
 </body> 
 </html>
-</code>
-### How to use per, sq and v tags
+```
+### How to use `per`, `sq` and `v` tags
 You can use the per tag to find the perimeter of a right rectangle. You can use the per tag to find the perimeter of a right rectangle. You enter the rectangular side values using the attributes p:a and p:b. You can use the sq tag to find the square of a right rectangle. You can use the per tag to find the perimeter of a right rectangle. You enter the rectangular side values using the attributes s:a and s:b. You can use the v tag to find the vocume of a paralapepidright rectangle. You enter the rectangular side values using the attributes v:s and v:h. Example:
 ```markdown
 <!DOCTYPE html>
@@ -226,7 +229,7 @@ You can use the per tag to find the perimeter of a right rectangle. You can use 
 </body> 
 </html>
 ```
-### How tu use pow tag
+### How tu use `pow` tag
 You use the pow tag to find the level of any number. You use the pow tag to find the level of any number. You use the pow:grade attribute to enter the degree value. Example:
 ```
 <!DOCTYPE html>
